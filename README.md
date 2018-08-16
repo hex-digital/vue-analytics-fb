@@ -1,13 +1,15 @@
-# vue-analytics-facebook-pixel
+# vue-analytics-fb
 
-[![npm](https://img.shields.io/npm/v/vue-analytics-facebook-pixel.svg)](https://www.npmjs.com/package/vue-analytics-facebook-pixel)
+[![npm](https://img.shields.io/npm/v/vue-analytics-fb.svg)](https://www.npmjs.com/package/vue-analytics-fb)
 
 A small wrapper around fbq. This package integrates Facebook pixel into your `Vue` app.
+
+This is originally forked from wemake-services/vue-analytics-facebook-pixel, with the plan to expand it further.
 
 ## Installation
 
 ```bash
-npm install vue-analytics-facebook-pixel
+npm install vue-analytics-fb
 ```
 
 Also, this library requires installing [Facebook Pixel API](https://developers.facebook.com/docs/ads-for-websites/tag-api/).
@@ -18,7 +20,7 @@ Also, this library requires installing [Facebook Pixel API](https://developers.f
 
 ```javascript
 import Vue from 'Vue'
-import VueFacebookPixel from 'vue-analytics-facebook-pixel'
+import VueFacebookPixel from 'vue-analytics-fb'
 
 Vue.use(VueFacebookPixel)
 ```
