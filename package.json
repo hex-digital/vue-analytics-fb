@@ -1,8 +1,11 @@
 {
-  "name": "vue-analytics-facebook-pixel",
+  "name": "vue-analytics-fb",
   "version": "1.0.1",
-  "description": "A small wrapper around Facebook Pixel API",
-  "author": "sobolevn <mail@sobolevn.me>",
+  "description": "A lightweight wrapper around the FB Pixel for Vue - extended from sobolevn's FB Pixel package",
+  "contributors": [
+    "sobolevn <mail@sobolevn.me>",
+    "jamiewarb <jamie@hexdigital.com>"
+  ],
   "private": false,
   "scripts": {
     "publish-please": "./node_modules/.bin/publish-please",
@@ -50,9 +53,9 @@
     "vue": "2.0.6",
     "webpack": "^1.13.3"
   },
-  "main": "dist/vue-analytics-facebook-pixel.js",
+  "main": "dist/vue-analytics-fb.js",
   "repository": {
-    "url": "https://github.com/hex-digital/vue-analytics-facebook-pixel.git",
+    "url": "https://github.com/hex-digital/vue-analytics-fb.git",
     "type": "git"
   },
   "keywords": [
@@ -62,7 +65,8 @@
     "facebook",
     "facebook pixel",
     "marketing",
-    "wemake.services"
+    "wemake.services",
+    "hex digital"
   ],
   "license": "MIT",
   "dependencies": {}
