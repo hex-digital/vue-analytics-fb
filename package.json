@@ -1,6 +1,6 @@
 {
   "name": "vue-analytics-fb",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A lightweight wrapper around the FB Pixel for Vue - extended from sobolevn's FB Pixel package",
   "contributors": [
     "sobolevn <mail@sobolevn.me>",
